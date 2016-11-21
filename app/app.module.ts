@@ -8,6 +8,7 @@ import { HeroesComponent } from "./heroes.component";
 import { HeroDetailComponent } from "./hero-detail.component";
 import { HeroService } from "./hero.service";
 import { DashboardComponent } from "./dashboard.component";
+import { SmilePipe } from "./smile.pipe";
 
 @NgModule({
   imports: [
@@ -19,7 +20,9 @@ import { DashboardComponent } from "./dashboard.component";
     AppComponent,
     DashboardComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    
+    SmilePipe
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]

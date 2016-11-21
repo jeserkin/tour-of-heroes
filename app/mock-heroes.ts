@@ -1,14 +1,14 @@
-import { Hero } from "./hero";
+import {HeroWithSmile} from "./hero-with-smile";
 
-export const HEROES: Hero[] = [
-  {id: 11, name: 'Mr. Nice'},
-  {id: 12, name: 'Narco'},
-  {id: 13, name: 'Bombasto'},
-  {id: 14, name: 'Celeritas'},
-  {id: 15, name: 'Magneta'},
-  {id: 16, name: 'RubberMan'},
-  {id: 17, name: 'Dynama'},
-  {id: 18, name: 'Dr IQ'},
-  {id: 19, name: 'Magma'},
-  {id: 20, name: 'Tornado'}
+export const HEROES: HeroWithSmile[] = [
+  {id: 11, name: 'Mr. Nice', randomSmile: '😁'},
+  {id: 12, name: 'Narco', randomSmile: '😂'},
+  {id: 13, name: 'Bombasto', randomSmile: '😃'},
+  {id: 14, name: 'Celeritas', randomSmile: '😄'},
+  {id: 15, name: 'Magneta', randomSmile: '😅'},
+  {id: 16, name: 'RubberMan', randomSmile: '😆'},
+  {id: 17, name: 'Dynama', randomSmile: '😉'},
+  {id: 18, name: 'Dr IQ', randomSmile: '😊'},
+  {id: 19, name: 'Magma', randomSmile: '😋'},
+  {id: 20, name: 'Tornado', randomSmile: '😌'}
 ];
